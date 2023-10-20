@@ -1,0 +1,85 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zurisaddaialmanza/Desktop/ligas_futbol_flutter/build/ios/Debug-ligas_futbol_dev-iphoneos/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/SDWebImageWebPCoder'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5D82C, size: 0x8, addend: 0x0, symName: _SDWebImageWebPCoderVersionString, symObjAddr: 0x0, symBinAddr: 0x80E0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5D861, size: 0x8, addend: 0x0, symName: _SDWebImageWebPCoderVersionNumber, symObjAddr: 0x38, symBinAddr: 0x8118, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5D89E, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame index]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x8 }
+  - { offsetInCU: 0x35, offset: 0x5D8AC, size: 0x8, addend: 0x0, symName: '+[SDImageWebPCoder sharedCoder]', symObjAddr: 0x130, symBinAddr: 0x4130, symSize: 0x40 }
+  - { offsetInCU: 0x5F, offset: 0x5D8D6, size: 0x8, addend: 0x0, symName: _sharedCoder.coder, symObjAddr: 0x154E8, symBinAddr: 0xDE30, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x5D8EC, size: 0x8, addend: 0x0, symName: _sharedCoder.onceToken, symObjAddr: 0x154F0, symBinAddr: 0xDE38, symSize: 0x0 }
+  - { offsetInCU: 0x6D4, offset: 0x5DF4B, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame index]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x8 }
+  - { offsetInCU: 0x70B, offset: 0x5DF82, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setIndex:]', symObjAddr: 0x8, symBinAddr: 0x4008, symSize: 0x8 }
+  - { offsetInCU: 0x748, offset: 0x5DFBF, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame duration]', symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0x8 }
+  - { offsetInCU: 0x77D, offset: 0x5DFF4, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setDuration:]', symObjAddr: 0x18, symBinAddr: 0x4018, symSize: 0x8 }
+  - { offsetInCU: 0x7BB, offset: 0x5E032, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame width]', symObjAddr: 0x20, symBinAddr: 0x4020, symSize: 0x8 }
+  - { offsetInCU: 0x7F2, offset: 0x5E069, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setWidth:]', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0x8 }
+  - { offsetInCU: 0x82F, offset: 0x5E0A6, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame height]', symObjAddr: 0x30, symBinAddr: 0x4030, symSize: 0x8 }
+  - { offsetInCU: 0x866, offset: 0x5E0DD, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setHeight:]', symObjAddr: 0x38, symBinAddr: 0x4038, symSize: 0x8 }
+  - { offsetInCU: 0x8A3, offset: 0x5E11A, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame offsetX]', symObjAddr: 0x40, symBinAddr: 0x4040, symSize: 0x8 }
+  - { offsetInCU: 0x8DA, offset: 0x5E151, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setOffsetX:]', symObjAddr: 0x48, symBinAddr: 0x4048, symSize: 0x8 }
+  - { offsetInCU: 0x917, offset: 0x5E18E, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame offsetY]', symObjAddr: 0x50, symBinAddr: 0x4050, symSize: 0x8 }
+  - { offsetInCU: 0x94E, offset: 0x5E1C5, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setOffsetY:]', symObjAddr: 0x58, symBinAddr: 0x4058, symSize: 0x8 }
+  - { offsetInCU: 0x98B, offset: 0x5E202, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame hasAlpha]', symObjAddr: 0x60, symBinAddr: 0x4060, symSize: 0x8 }
+  - { offsetInCU: 0x9C2, offset: 0x5E239, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setHasAlpha:]', symObjAddr: 0x68, symBinAddr: 0x4068, symSize: 0x8 }
+  - { offsetInCU: 0x9FD, offset: 0x5E274, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame isFullSize]', symObjAddr: 0x70, symBinAddr: 0x4070, symSize: 0x8 }
+  - { offsetInCU: 0xA34, offset: 0x5E2AB, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setIsFullSize:]', symObjAddr: 0x78, symBinAddr: 0x4078, symSize: 0x8 }
+  - { offsetInCU: 0xA6F, offset: 0x5E2E6, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame shouldBlend]', symObjAddr: 0x80, symBinAddr: 0x4080, symSize: 0x8 }
+  - { offsetInCU: 0xAA6, offset: 0x5E31D, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setShouldBlend:]', symObjAddr: 0x88, symBinAddr: 0x4088, symSize: 0x8 }
+  - { offsetInCU: 0xAE1, offset: 0x5E358, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame shouldDispose]', symObjAddr: 0x90, symBinAddr: 0x4090, symSize: 0x8 }
+  - { offsetInCU: 0xB18, offset: 0x5E38F, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setShouldDispose:]', symObjAddr: 0x98, symBinAddr: 0x4098, symSize: 0x8 }
+  - { offsetInCU: 0xB53, offset: 0x5E3CA, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame blendFromIndex]', symObjAddr: 0xA0, symBinAddr: 0x40A0, symSize: 0x8 }
+  - { offsetInCU: 0xB8A, offset: 0x5E401, size: 0x8, addend: 0x0, symName: '-[SDWebPCoderFrame setBlendFromIndex:]', symObjAddr: 0xA8, symBinAddr: 0x40A8, symSize: 0x8 }
+  - { offsetInCU: 0xBC7, offset: 0x5E43E, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder dealloc]', symObjAddr: 0xB0, symBinAddr: 0x40B0, symSize: 0x80 }
+  - { offsetInCU: 0xCAD, offset: 0x5E524, size: 0x8, addend: 0x0, symName: '___31+[SDImageWebPCoder sharedCoder]_block_invoke', symObjAddr: 0x170, symBinAddr: 0x4170, symSize: 0x30 }
+  - { offsetInCU: 0xCD4, offset: 0x5E54B, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder canDecodeFromData:]', symObjAddr: 0x1A0, symBinAddr: 0x41A0, symSize: 0x24 }
+  - { offsetInCU: 0xD17, offset: 0x5E58E, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder canIncrementalDecodeFromData:]', symObjAddr: 0x1C4, symBinAddr: 0x41C4, symSize: 0x24 }
+  - { offsetInCU: 0xDB4, offset: 0x5E62B, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder decodedImageWithData:options:]', symObjAddr: 0x1E8, symBinAddr: 0x41E8, symSize: 0x4D4 }
+  - { offsetInCU: 0x13DF, offset: 0x5EC56, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder initIncrementalWithOptions:]', symObjAddr: 0x6BC, symBinAddr: 0x46BC, symSize: 0x188 }
+  - { offsetInCU: 0x1517, offset: 0x5ED8E, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder updateIncrementalData:finished:]', symObjAddr: 0x844, symBinAddr: 0x4844, symSize: 0x174 }
+  - { offsetInCU: 0x16F5, offset: 0x5EF6C, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder incrementalDecodedImageWithOptions:]', symObjAddr: 0x9B8, symBinAddr: 0x49B8, symSize: 0x31C }
+  - { offsetInCU: 0x1B45, offset: 0x5F3BC, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder sd_blendWebpImageWithCanvas:iterator:colorSpace:]', symObjAddr: 0xCD4, symBinAddr: 0x4CD4, symSize: 0x124 }
+  - { offsetInCU: 0x1CB9, offset: 0x5F530, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder sd_drawnWebpImageWithCanvas:iterator:colorSpace:scaledSize:]', symObjAddr: 0xDF8, symBinAddr: 0x4DF8, symSize: 0x168 }
+  - { offsetInCU: 0x21EA, offset: 0x5FA61, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder sd_createWebpImageWithData:colorSpace:scaledSize:]', symObjAddr: 0xF60, symBinAddr: 0x4F60, symSize: 0x130 }
+  - { offsetInCU: 0x247A, offset: 0x5FCF1, size: 0x8, addend: 0x0, symName: _FreeImageData, symObjAddr: 0x1090, symBinAddr: 0x5090, symSize: 0x8 }
+  - { offsetInCU: 0x24BD, offset: 0x5FD34, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder sd_frameDurationWithIterator:]', symObjAddr: 0x1098, symBinAddr: 0x5098, symSize: 0x24 }
+  - { offsetInCU: 0x2512, offset: 0x5FD89, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder sd_createColorSpaceWithDemuxer:]', symObjAddr: 0x10BC, symBinAddr: 0x50BC, symSize: 0xEC }
+  - { offsetInCU: 0x277B, offset: 0x5FFF2, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder canEncodeToFormat:]', symObjAddr: 0x11A8, symBinAddr: 0x51A8, symSize: 0xC }
+  - { offsetInCU: 0x27BE, offset: 0x60035, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder encodedDataWithImage:format:options:]', symObjAddr: 0x11B4, symBinAddr: 0x51B4, symSize: 0x164 }
+  - { offsetInCU: 0x287C, offset: 0x600F3, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder encodedDataWithFrames:loopCount:format:options:]', symObjAddr: 0x1318, symBinAddr: 0x5318, symSize: 0x410 }
+  - { offsetInCU: 0x2C5B, offset: 0x604D2, size: 0x8, addend: 0x0, symName: _WebPDataClear, symObjAddr: 0x1728, symBinAddr: 0x5728, symSize: 0x2C }
+  - { offsetInCU: 0x3223, offset: 0x60A9A, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder sd_encodedWebpDataWithImage:quality:maxPixelSize:maxFileSize:options:]', symObjAddr: 0x1754, symBinAddr: 0x5754, symSize: 0x450 }
+  - { offsetInCU: 0x3BF5, offset: 0x6146C, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder updateWebPOptionsToConfig:maxFileSize:options:]', symObjAddr: 0x1BA4, symBinAddr: 0x5BA4, symSize: 0x2A8 }
+  - { offsetInCU: 0x3E17, offset: 0x6168E, size: 0x8, addend: 0x0, symName: _GetIntValueForKey, symObjAddr: 0x1E4C, symBinAddr: 0x5E4C, symSize: 0x68 }
+  - { offsetInCU: 0x3E77, offset: 0x616EE, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder initWithAnimatedImageData:options:]', symObjAddr: 0x1EB4, symBinAddr: 0x5EB4, symSize: 0x200 }
+  - { offsetInCU: 0x3FD7, offset: 0x6184E, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder scanAndCheckFramesValidWithDemuxer:]', symObjAddr: 0x20B4, symBinAddr: 0x60B4, symSize: 0x320 }
+  - { offsetInCU: 0x4202, offset: 0x61A79, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder animatedImageData]', symObjAddr: 0x23D4, symBinAddr: 0x63D4, symSize: 0x8 }
+  - { offsetInCU: 0x423A, offset: 0x61AB1, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder animatedImageLoopCount]', symObjAddr: 0x23DC, symBinAddr: 0x63DC, symSize: 0x8 }
+  - { offsetInCU: 0x4272, offset: 0x61AE9, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder animatedImageFrameCount]', symObjAddr: 0x23E4, symBinAddr: 0x63E4, symSize: 0x8 }
+  - { offsetInCU: 0x42AA, offset: 0x61B21, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder animatedImageDurationAtIndex:]', symObjAddr: 0x23EC, symBinAddr: 0x63EC, symSize: 0x138 }
+  - { offsetInCU: 0x438E, offset: 0x61C05, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder animatedImageFrameAtIndex:]', symObjAddr: 0x2524, symBinAddr: 0x6524, symSize: 0x178 }
+  - { offsetInCU: 0x44CE, offset: 0x61D45, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder safeStaticImageFrame]', symObjAddr: 0x269C, symBinAddr: 0x669C, symSize: 0x188 }
+  - { offsetInCU: 0x462A, offset: 0x61EA1, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder safeAnimatedImageFrameAtIndex:]', symObjAddr: 0x2824, symBinAddr: 0x6824, symSize: 0x234 }
+  - { offsetInCU: 0x47EE, offset: 0x62065, size: 0x8, addend: 0x0, symName: '-[SDImageWebPCoder .cxx_destruct]', symObjAddr: 0x2A58, symBinAddr: 0x6A58, symSize: 0x30 }
+  - { offsetInCU: 0x35, offset: 0x62197, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPMethod, symObjAddr: 0x398, symBinAddr: 0xC3A0, symSize: 0x0 }
+  - { offsetInCU: 0x50, offset: 0x621B2, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPPass, symObjAddr: 0x3A0, symBinAddr: 0xC3A8, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x621C8, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPPreprocessing, symObjAddr: 0x3A8, symBinAddr: 0xC3B0, symSize: 0x0 }
+  - { offsetInCU: 0x7C, offset: 0x621DE, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPThreadLevel, symObjAddr: 0x3B0, symBinAddr: 0xC3B8, symSize: 0x0 }
+  - { offsetInCU: 0x92, offset: 0x621F4, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPLowMemory, symObjAddr: 0x3B8, symBinAddr: 0xC3C0, symSize: 0x0 }
+  - { offsetInCU: 0xA8, offset: 0x6220A, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPTargetPSNR, symObjAddr: 0x3C0, symBinAddr: 0xC3C8, symSize: 0x0 }
+  - { offsetInCU: 0xBE, offset: 0x62220, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPSegments, symObjAddr: 0x3C8, symBinAddr: 0xC3D0, symSize: 0x0 }
+  - { offsetInCU: 0xD4, offset: 0x62236, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPSnsStrength, symObjAddr: 0x3D0, symBinAddr: 0xC3D8, symSize: 0x0 }
+  - { offsetInCU: 0xEA, offset: 0x6224C, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPFilterStrength, symObjAddr: 0x3D8, symBinAddr: 0xC3E0, symSize: 0x0 }
+  - { offsetInCU: 0x100, offset: 0x62262, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPFilterSharpness, symObjAddr: 0x3E0, symBinAddr: 0xC3E8, symSize: 0x0 }
+  - { offsetInCU: 0x116, offset: 0x62278, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPFilterType, symObjAddr: 0x3E8, symBinAddr: 0xC3F0, symSize: 0x0 }
+  - { offsetInCU: 0x12C, offset: 0x6228E, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPAutofilter, symObjAddr: 0x3F0, symBinAddr: 0xC3F8, symSize: 0x0 }
+  - { offsetInCU: 0x142, offset: 0x622A4, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPAlphaCompression, symObjAddr: 0x3F8, symBinAddr: 0xC400, symSize: 0x0 }
+  - { offsetInCU: 0x158, offset: 0x622BA, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPAlphaFiltering, symObjAddr: 0x400, symBinAddr: 0xC408, symSize: 0x0 }
+  - { offsetInCU: 0x16E, offset: 0x622D0, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPAlphaQuality, symObjAddr: 0x408, symBinAddr: 0xC410, symSize: 0x0 }
+  - { offsetInCU: 0x184, offset: 0x622E6, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPShowCompressed, symObjAddr: 0x410, symBinAddr: 0xC418, symSize: 0x0 }
+  - { offsetInCU: 0x19A, offset: 0x622FC, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPPartitions, symObjAddr: 0x418, symBinAddr: 0xC420, symSize: 0x0 }
+  - { offsetInCU: 0x1B0, offset: 0x62312, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPPartitionLimit, symObjAddr: 0x420, symBinAddr: 0xC428, symSize: 0x0 }
+  - { offsetInCU: 0x1C6, offset: 0x62328, size: 0x8, addend: 0x0, symName: _SDImageCoderEncodeWebPUseSharpYuv, symObjAddr: 0x428, symBinAddr: 0xC430, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x62367, size: 0x8, addend: 0x0, symName: '+[UIImage(WebP) sd_imageWithWebPData:]', symObjAddr: 0x0, symBinAddr: 0x6A88, symSize: 0x80 }
+  - { offsetInCU: 0x43, offset: 0x62383, size: 0x8, addend: 0x0, symName: '+[UIImage(WebP) sd_imageWithWebPData:]', symObjAddr: 0x0, symBinAddr: 0x6A88, symSize: 0x80 }
+...
