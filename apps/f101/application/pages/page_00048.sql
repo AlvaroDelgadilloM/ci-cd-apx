@@ -1,0 +1,297 @@
+prompt --application/pages/page_00048
+begin
+--   Manifest
+--     PAGE: 00048
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2023.04.28'
+,p_release=>'23.1.5'
+,p_default_workspace_id=>7288496378550840
+,p_default_application_id=>101
+,p_default_id_offset=>7322832013292725
+,p_default_owner=>'WKSP_ADMCI'
+);
+wwv_flow_imp_page.create_page(
+ p_id=>48
+,p_name=>'Drill Down'
+,p_alias=>'DRILL-DOWN'
+,p_step_title=>'Drill Down'
+,p_autocomplete_on_off=>'OFF'
+,p_page_template_options=>'#DEFAULT#'
+,p_protection_level=>'C'
+,p_page_component_map=>'18'
+,p_last_upd_yyyymmddhh24miss=>'20230110134708'
+);
+wwv_flow_imp_page.create_page_plug(
+ p_id=>wwv_flow_imp.id(1006850953806449708)
+,p_plug_name=>'Projects'
+,p_region_template_options=>'#DEFAULT#'
+,p_component_template_options=>'#DEFAULT#'
+,p_plug_template=>wwv_flow_imp.id(48365679823707321218)
+,p_plug_display_sequence=>30
+,p_include_in_reg_disp_sel_yn=>'Y'
+,p_query_type=>'SQL'
+,p_plug_source=>wwv_flow_string.join(wwv_flow_t_varchar2(
+'select ID,',
+'       ROWID,',
+'       PROJECT_LEAD,',
+'       NAME,',
+'       DESCRIPTION,',
+'       STATUS_CD,',
+'       COMPLETED_DATE,',
+'       CREATED,',
+'       CREATED_BY,',
+'       UPDATED,',
+'       UPDATED_BY',
+'  from EBA_DEMO_MD_PROJECTS'))
+,p_plug_source_type=>'NATIVE_IR'
+,p_prn_content_disposition=>'ATTACHMENT'
+,p_prn_units=>'INCHES'
+,p_prn_paper_size=>'LETTER'
+,p_prn_width=>8.5
+,p_prn_height=>11
+,p_prn_orientation=>'HORIZONTAL'
+,p_prn_page_header_font_color=>'#000000'
+,p_prn_page_header_font_family=>'Helvetica'
+,p_prn_page_header_font_weight=>'normal'
+,p_prn_page_header_font_size=>'12'
+,p_prn_page_footer_font_color=>'#000000'
+,p_prn_page_footer_font_family=>'Helvetica'
+,p_prn_page_footer_font_weight=>'normal'
+,p_prn_page_footer_font_size=>'12'
+,p_prn_header_bg_color=>'#9bafde'
+,p_prn_header_font_color=>'#000000'
+,p_prn_header_font_family=>'Helvetica'
+,p_prn_header_font_weight=>'normal'
+,p_prn_header_font_size=>'10'
+,p_prn_body_bg_color=>'#efefef'
+,p_prn_body_font_color=>'#000000'
+,p_prn_body_font_family=>'Helvetica'
+,p_prn_body_font_weight=>'normal'
+,p_prn_body_font_size=>'10'
+,p_prn_border_width=>.5
+,p_prn_page_header_alignment=>'CENTER'
+,p_prn_page_footer_alignment=>'CENTER'
+);
+wwv_flow_imp_page.create_worksheet(
+ p_id=>wwv_flow_imp.id(1006851061384449709)
+,p_max_row_count=>'1000000'
+,p_show_nulls_as=>'-'
+,p_pagination_type=>'ROWS_X_TO_Y'
+,p_pagination_display_pos=>'BOTTOM_RIGHT'
+,p_report_list_mode=>'TABS'
+,p_lazy_loading=>false
+,p_show_detail_link=>'C'
+,p_show_notify=>'Y'
+,p_download_formats=>'CSV:HTML:XLSX:PDF'
+,p_enable_mail_download=>'Y'
+,p_detail_link=>'f?p=&APP_ID.:49:&SESSION.::&DEBUG.:RP,49:P49_ROWID:#ROWID#'
+,p_detail_link_text=>'<img src="#IMAGE_PREFIX#app_ui/img/icons/apex-edit-pencil.png" class="apex-edit-pencil" alt="">'
+,p_owner=>'ALLAN'
+,p_internal_uid=>997017359995477643
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851189282449710)
+,p_db_column_name=>'ID'
+,p_display_order=>10
+,p_column_identifier=>'A'
+,p_column_label=>'Id'
+,p_column_type=>'NUMBER'
+,p_display_text_as=>'HIDDEN'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(86033686750356370)
+,p_db_column_name=>'ROWID'
+,p_display_order=>20
+,p_column_identifier=>'K'
+,p_column_label=>'Rowid'
+,p_column_type=>'OTHER'
+,p_display_text_as=>'HIDDEN'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851226231449711)
+,p_db_column_name=>'PROJECT_LEAD'
+,p_display_order=>30
+,p_column_identifier=>'B'
+,p_column_label=>'Project Lead'
+,p_column_type=>'NUMBER'
+,p_display_text_as=>'LOV_ESCAPE_SC'
+,p_heading_alignment=>'LEFT'
+,p_rpt_named_lov=>wwv_flow_imp.id(48787234845712557479)
+,p_rpt_show_filter_lov=>'1'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851396852449712)
+,p_db_column_name=>'NAME'
+,p_display_order=>40
+,p_column_identifier=>'C'
+,p_column_label=>'Name'
+,p_column_type=>'STRING'
+,p_heading_alignment=>'LEFT'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851495332449713)
+,p_db_column_name=>'DESCRIPTION'
+,p_display_order=>50
+,p_column_identifier=>'D'
+,p_column_label=>'Description'
+,p_column_type=>'STRING'
+,p_heading_alignment=>'LEFT'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851510983449714)
+,p_db_column_name=>'STATUS_CD'
+,p_display_order=>60
+,p_column_identifier=>'E'
+,p_column_label=>'Status'
+,p_column_type=>'STRING'
+,p_display_text_as=>'LOV_ESCAPE_SC'
+,p_heading_alignment=>'LEFT'
+,p_rpt_named_lov=>wwv_flow_imp.id(4599654513187792122)
+,p_rpt_show_filter_lov=>'1'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851605930449715)
+,p_db_column_name=>'COMPLETED_DATE'
+,p_display_order=>70
+,p_column_identifier=>'F'
+,p_column_label=>'Completed Date'
+,p_column_type=>'DATE'
+,p_heading_alignment=>'LEFT'
+,p_tz_dependent=>'N'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(1006851790328449716)
+,p_db_column_name=>'CREATED'
+,p_display_order=>80
+,p_column_identifier=>'G'
+,p_column_label=>'Created'
+,p_column_type=>'DATE'
+,p_column_alignment=>'CENTER'
+,p_tz_dependent=>'Y'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(86033308954356367)
+,p_db_column_name=>'CREATED_BY'
+,p_display_order=>90
+,p_column_identifier=>'H'
+,p_column_label=>'Created By'
+,p_column_type=>'STRING'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(86033440127356368)
+,p_db_column_name=>'UPDATED'
+,p_display_order=>100
+,p_column_identifier=>'I'
+,p_column_label=>'Updated'
+,p_column_type=>'DATE'
+,p_column_alignment=>'CENTER'
+,p_tz_dependent=>'Y'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(86033522864356369)
+,p_db_column_name=>'UPDATED_BY'
+,p_display_order=>110
+,p_column_identifier=>'J'
+,p_column_label=>'Updated By'
+,p_column_type=>'STRING'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_rpt(
+ p_id=>wwv_flow_imp.id(86041917966359189)
+,p_application_user=>'APXWS_DEFAULT'
+,p_report_seq=>10
+,p_report_alias=>'762083'
+,p_status=>'PUBLIC'
+,p_is_default=>'Y'
+,p_report_columns=>'NAME:PROJECT_LEAD:STATUS_CD:COMPLETED_DATE:DESCRIPTION:'
+,p_sort_column_1=>'CREATED'
+,p_sort_direction_1=>'ASC'
+,p_sort_column_2=>'0'
+,p_sort_direction_2=>'ASC'
+,p_sort_column_3=>'0'
+,p_sort_direction_3=>'ASC'
+,p_sort_column_4=>'0'
+,p_sort_direction_4=>'ASC'
+,p_sort_column_5=>'0'
+,p_sort_direction_5=>'ASC'
+,p_sort_column_6=>'0'
+,p_sort_direction_6=>'ASC'
+);
+wwv_flow_imp_page.create_page_plug(
+ p_id=>wwv_flow_imp.id(4626636938595097208)
+,p_plug_name=>'Breadcrumb'
+,p_region_template_options=>'#DEFAULT#:t-BreadcrumbRegion--useBreadcrumbTitle'
+,p_component_template_options=>'#DEFAULT#'
+,p_plug_template=>wwv_flow_imp.id(48365683602117321221)
+,p_plug_display_sequence=>10
+,p_plug_display_point=>'REGION_POSITION_01'
+,p_menu_id=>wwv_flow_imp.id(48365707793986321279)
+,p_plug_source_type=>'NATIVE_BREADCRUMB'
+,p_menu_template_id=>wwv_flow_imp.id(48365701771164321250)
+);
+wwv_flow_imp_page.create_page_plug(
+ p_id=>wwv_flow_imp.id(5645140708134292660)
+,p_plug_name=>'Overview: Drill Down'
+,p_region_name=>'comments'
+,p_region_template_options=>'#DEFAULT#:is-expanded:t-Region--scrollBody'
+,p_plug_template=>wwv_flow_imp.id(48365676559510321216)
+,p_plug_display_sequence=>10
+,p_plug_source=>'This example consists of a report page that drills down to a page where the selected master is standard form items, and the detail tables use editable Interactive Grids.  This also contains modal popups where you can manage sub-detail table data.'
+,p_attribute_01=>'N'
+,p_attribute_02=>'HTML'
+);
+wwv_flow_imp_page.create_page_button(
+ p_id=>wwv_flow_imp.id(4626637536810097211)
+,p_button_sequence=>10
+,p_button_plug_id=>wwv_flow_imp.id(1006850953806449708)
+,p_button_name=>'CREATE'
+,p_button_action=>'REDIRECT_PAGE'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_imp.id(48365701286975321249)
+,p_button_is_hot=>'Y'
+,p_button_image_alt=>'Create Project'
+,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
+,p_button_redirect_url=>'f?p=&APP_ID.:5:&SESSION.::&DEBUG.:5::'
+);
+wwv_flow_imp_page.create_page_computation(
+ p_id=>wwv_flow_imp.id(3930162254704857753)
+,p_computation_sequence=>10
+,p_computation_item=>'LAST_VIEW'
+,p_computation_point=>'BEFORE_HEADER'
+,p_computation_type=>'ITEM_VALUE'
+,p_computation=>'APP_PAGE_ID'
+);
+wwv_flow_imp_page.create_page_da_event(
+ p_id=>wwv_flow_imp.id(3959438838378233398)
+,p_name=>'Create Button - Dialog Closed'
+,p_event_sequence=>10
+,p_triggering_element_type=>'BUTTON'
+,p_triggering_button_id=>wwv_flow_imp.id(4626637536810097211)
+,p_bind_type=>'bind'
+,p_execution_type=>'IMMEDIATE'
+,p_bind_event_type=>'apexafterclosedialog'
+);
+wwv_flow_imp_page.create_page_da_action(
+ p_id=>wwv_flow_imp.id(214745652158662350)
+,p_event_id=>wwv_flow_imp.id(3959438838378233398)
+,p_event_result=>'TRUE'
+,p_action_sequence=>10
+,p_execute_on_page_init=>'N'
+,p_action=>'NATIVE_REFRESH'
+,p_affected_elements_type=>'REGION'
+,p_affected_region_id=>wwv_flow_imp.id(1006850953806449708)
+);
+wwv_flow_imp.component_end;
+end;
+/
